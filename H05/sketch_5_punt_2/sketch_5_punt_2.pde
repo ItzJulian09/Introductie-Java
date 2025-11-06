@@ -1,10 +1,10 @@
 size(1000, 1000);
-textSize(100);
-Float cijfer=1.95;
+textSize(70);
+float cijfer=1.95;
 String nul = "Meter,";
 String een = "wat";
 String twee = "lang";
 String drie = "zeg!";
 String vol = cijfer + " " + nul + " " + een + " " + twee + " " + drie;
 println(vol);
-text(nul);
+text(vol, 200, 200);
